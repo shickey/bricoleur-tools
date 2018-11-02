@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A36736B02179352B002C47A9 /* TypesAndExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36736AF2179352B002C47A9 /* TypesAndExtensions.swift */; };
+		A36736B221794798002C47A9 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36736B121794798002C47A9 /* Audio.swift */; };
+		A36736B4217947F2002C47A9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36736B3217947F2002C47A9 /* Utils.swift */; };
+		A3AC797320C9DC4F005BDF3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AC797220C9DC4F005BDF3A /* AppDelegate.swift */; };
+		A3AC797520C9DC4F005BDF3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AC797420C9DC4F005BDF3A /* ViewController.swift */; };
+		A3AC797A20C9DC51005BDF3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AC797920C9DC51005BDF3A /* Assets.xcassets */; };
+		A3AC797D20C9DC51005BDF3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AC797B20C9DC51005BDF3A /* Main.storyboard */; };
+		A3AC798620C9E562005BDF3A /* MetalWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AC798520C9E562005BDF3A /* MetalWorker.swift */; };
+		A3AC798820C9E5AA005BDF3A /* DataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AC798720C9E5AA005BDF3A /* DataTypes.swift */; };
+		A3AC799420C9E82B005BDF3A /* libturbojpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3AC798A20C9E645005BDF3A /* libturbojpeg.a */; };
+		A3AC799620C9E8A1005BDF3A /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = A3AC799520C9E8A1005BDF3A /* Shaders.metal */; };
+		A3AC7A3320C9EC9C005BDF3A /* web in Resources */ = {isa = PBXBuildFile; fileRef = A3AC7A3220C9EC9C005BDF3A /* web */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A36736AF2179352B002C47A9 /* TypesAndExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesAndExtensions.swift; sourceTree = "<group>"; };
+		A36736B121794798002C47A9 /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		A36736B3217947F2002C47A9 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		A3AC796F20C9DC4F005BDF3A /* Steina Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Steina Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3AC797220C9DC4F005BDF3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3AC797420C9DC4F005BDF3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3AC797920C9DC51005BDF3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3AC797C20C9DC51005BDF3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3AC797E20C9DC51005BDF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3AC797F20C9DC51005BDF3A /* Steina_Player.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Steina_Player.entitlements; sourceTree = "<group>"; };
+		A3AC798520C9E562005BDF3A /* MetalWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalWorker.swift; sourceTree = "<group>"; };
+		A3AC798720C9E5AA005BDF3A /* DataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTypes.swift; sourceTree = "<group>"; };
+		A3AC798A20C9E645005BDF3A /* libturbojpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libturbojpeg.a; sourceTree = "<group>"; };
+		A3AC798B20C9E645005BDF3A /* turbojpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = turbojpeg.h; sourceTree = "<group>"; };
+		A3AC798C20C9E645005BDF3A /* jpeglib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpeglib.h; sourceTree = "<group>"; };
+		A3AC798E20C9E667005BDF3A /* Steina Player-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Steina Player-Bridging-Header.h"; sourceTree = "<group>"; };
+		A3AC799520C9E8A1005BDF3A /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		A3AC7A3220C9EC9C005BDF3A /* web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = web; sourceTree = "<group>"; };
+		A3AC7A3420C9F2F4005BDF3A /* Steina Player.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Steina Player.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3AC796C20C9DC4F005BDF3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AC799420C9E82B005BDF3A /* libturbojpeg.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3AC796620C9DC4F005BDF3A = {
+			isa = PBXGroup;
+			children = (
+				A3AC797120C9DC4F005BDF3A /* Steina Player */,
+				A3AC7A3220C9EC9C005BDF3A /* web */,
+				A3AC797020C9DC4F005BDF3A /* Products */,
+				A3AC798E20C9E667005BDF3A /* Steina Player-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		A3AC797020C9DC4F005BDF3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3AC796F20C9DC4F005BDF3A /* Steina Player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3AC797120C9DC4F005BDF3A /* Steina Player */ = {
+			isa = PBXGroup;
+			children = (
+				A3AC7A3420C9F2F4005BDF3A /* Steina Player.entitlements */,
+				A3AC798920C9E639005BDF3A /* lib */,
+				A3AC797220C9DC4F005BDF3A /* AppDelegate.swift */,
+				A3AC797420C9DC4F005BDF3A /* ViewController.swift */,
+				A36736B121794798002C47A9 /* Audio.swift */,
+				A3AC797920C9DC51005BDF3A /* Assets.xcassets */,
+				A3AC797B20C9DC51005BDF3A /* Main.storyboard */,
+				A3AC798520C9E562005BDF3A /* MetalWorker.swift */,
+				A3AC799520C9E8A1005BDF3A /* Shaders.metal */,
+				A3AC798720C9E5AA005BDF3A /* DataTypes.swift */,
+				A36736B3217947F2002C47A9 /* Utils.swift */,
+				A36736AF2179352B002C47A9 /* TypesAndExtensions.swift */,
+				A3AC797E20C9DC51005BDF3A /* Info.plist */,
+				A3AC797F20C9DC51005BDF3A /* Steina_Player.entitlements */,
+			);
+			path = "Steina Player";
+			sourceTree = "<group>";
+		};
+		A3AC798920C9E639005BDF3A /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A3AC798C20C9E645005BDF3A /* jpeglib.h */,
+				A3AC798A20C9E645005BDF3A /* libturbojpeg.a */,
+				A3AC798B20C9E645005BDF3A /* turbojpeg.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3AC796E20C9DC4F005BDF3A /* Steina Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3AC798220C9DC51005BDF3A /* Build configuration list for PBXNativeTarget "Steina Player" */;
+			buildPhases = (
+				A3AC796B20C9DC4F005BDF3A /* Sources */,
+				A3AC796C20C9DC4F005BDF3A /* Frameworks */,
+				A3AC796D20C9DC4F005BDF3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Steina Player";
+			productName = "Steina Player";
+			productReference = A3AC796F20C9DC4F005BDF3A /* Steina Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3AC796720C9DC4F005BDF3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Massachusetts Institute of Technology";
+				TargetAttributes = {
+					A3AC796E20C9DC4F005BDF3A = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A3AC796A20C9DC4F005BDF3A /* Build configuration list for PBXProject "Steina Player" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3AC796620C9DC4F005BDF3A;
+			productRefGroup = A3AC797020C9DC4F005BDF3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3AC796E20C9DC4F005BDF3A /* Steina Player */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3AC796D20C9DC4F005BDF3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AC7A3320C9EC9C005BDF3A /* web in Resources */,
+				A3AC797A20C9DC51005BDF3A /* Assets.xcassets in Resources */,
+				A3AC797D20C9DC51005BDF3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3AC796B20C9DC4F005BDF3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AC797520C9DC4F005BDF3A /* ViewController.swift in Sources */,
+				A36736B02179352B002C47A9 /* TypesAndExtensions.swift in Sources */,
+				A3AC799620C9E8A1005BDF3A /* Shaders.metal in Sources */,
+				A3AC798620C9E562005BDF3A /* MetalWorker.swift in Sources */,
+				A3AC798820C9E5AA005BDF3A /* DataTypes.swift in Sources */,
+				A3AC797320C9DC4F005BDF3A /* AppDelegate.swift in Sources */,
+				A36736B221794798002C47A9 /* Audio.swift in Sources */,
+				A36736B4217947F2002C47A9 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3AC797B20C9DC51005BDF3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3AC797C20C9DC51005BDF3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3AC798020C9DC51005BDF3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3AC798120C9DC51005BDF3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A3AC798320C9DC51005BDF3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 38HK43T9W4;
+				INFOPLIST_FILE = "Steina Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Steina\\ Player/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.mit.media.llk.Steina-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Steina Player-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A3AC798420C9DC51005BDF3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 38HK43T9W4;
+				INFOPLIST_FILE = "Steina Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Steina\\ Player/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.mit.media.llk.Steina-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Steina Player-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3AC796A20C9DC4F005BDF3A /* Build configuration list for PBXProject "Steina Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AC798020C9DC51005BDF3A /* Debug */,
+				A3AC798120C9DC51005BDF3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3AC798220C9DC51005BDF3A /* Build configuration list for PBXNativeTarget "Steina Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AC798320C9DC51005BDF3A /* Debug */,
+				A3AC798420C9DC51005BDF3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3AC796720C9DC4F005BDF3A /* Project object */;
+}

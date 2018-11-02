@@ -1,0 +1,49 @@
+/**
+ * Global
+ */
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    background: #334771;
+}
+
+/**
+ * Toolbox
+ */
+#toolbox {
+    display: none;
+}
+
+/**
+ * Blockly
+ */
+#blocks {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.blocklyToolboxDiv {
+    display: none;
+}
+
+.blocklyFlyout {
+    transform: none !important;
+}
+
+.blocklyMainBackground {
+    stroke: none !important;
+}
+
+.blocklyScrollbarHorizontal {
+    display: none !important;
+}
+
+.blocklyScrollbarVertical {
+    display: none !important;
+}
